@@ -5,39 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style/reset.css" />
-    <link rel="stylesheet" href="style/contact.css" />
+    <link rel="stylesheet" href="style/index.css" />
   </head>
   <body>
     <header class="header">
       <h1>Your Name</h1>
       <nav>
         <ul>
-          <li><a href="./index1.html">About</a></li>
-          <li><a href="./portfolio1.html">Portfolio</a></li>
-          <li><a href="./Contact1.html">Contact</a></li>
+          <li><a href="./index.html">About</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main class="main">
-      <div class="form">
-        <h2>Contact</h2>
-        <form>
-          <label for="name">Name</label>
-          <input type="text" id="name" placeholder="John Smit" required />
-          <label for="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            placeholder="example@gmail.com"
-            required
-          />
-          <label for="message">Message</label>
-          <textarea id="message" required></textarea>
-          <button class="button" type="submit">Send</button>
-        </form>
+    <section class="section">
+      <div class="about">
+        <div class="h2"><h2>About me</h2></div>
+        <img
+          src="https://images.unsplash.com/photo-1615789591457-74a63395c990?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9tZXN0aWMlMjBjYXR8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+          alt=""
+        />
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odio,
+          repellat laborum magni iste nam. Voluptate architecto iusto vitae
+          asperiores, ratione optio natus cum veritatis repellat nam nemo et
+          veniam.
+        </p>
       </div>
-      <div class="contact_info">
-        <h3>Connect with Me</h3>
+      <div class="contact">
+        <h3>Contact With Me</h3>
         <img
           src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQwAAAC8CAMAAAC672BgAAAAjVBMVEX/AAD/////Xl7/urr/YWH/pKT/+/v/ycn/jo7/QUH/19f/4uL/xsb/6ur/3t7/1NT/kpL/gYH/8vL/eXn/trb/nZ3/8fH/NDT/IiL/sLD/PDz/EBD/7Oz/zs7/hYX/lpb/bGz/U1P/wMD/DQ3/p6f/VFT/RET/LS3/Ghr/TU3/Njb/cnL/dHT/Zmb/X1/Nn61jAAAHk0lEQVR4nO2d63qiMBBAiVR0uSooCiJalFa7a9//8TYEar0AXiozQ+P52W8lw1mFZDJJFNYEmqZZkWXbtuM48yRJ1DVnkBEPM7zPl4I/R3z99dMT/ywWH8k+q/KLzPnF+CX5hfnlGwlb+eHn3cgy7HkyWncXg9hbpq+Tj+lmozTOZjP9mLymS284WHTXo2RuG1bkQsvQXN/uqUG3/7ezDd8BbvsWNu/htvO33w3Unu27N399rpYROUnQX6YhsduvYxOmy36QONHjZLj6KF6G2Df2M8JlPNIv/4jqZViBN8W+kccx9QLrXhnG4h07/MfzvjDukGFuseNuiq15owyz5Q+JesIKHaUyrBQ73KZJSx8eZTLG2KFCML5KhvbrvxY56Xmf7EyGscKOEorV2XvlVMYcO0RI5vUyetjxwdKrk6FjRweNXi3Dwo4NHqtSxi/sfl/ivUrGEjsyDJblMlTsuHBQy2Ro2FFhoZXIiLGDwiI+l2Fgx4SHcSbjH3ZIePw7lRFhR4RJdCJjgB0QJosTGS2aAXg8m2MZDnY8uDhHMqR9r+bERzIkHJUc8n4oQ+p3SUZ0IEPSYck36oGMIXYw2AwPZLxhB4PN27cMaQes32h7GTZ2KPjYexkBdij4BHsZfexQ8OnvZUgyoVhHupfxi6pz7mX6JcPHjoQCfiHj+TJR8tdJJiPBDoQCSSFDiuKUS4wLGdKPTDKGhYwOdiAU6BQyJM/s5LwXMqQpXKpjlcuQPs2VEwkZ0pXrlKMLGZLVcVXREzKeA3hBIGQssMOgwULI8LDDoIEnZCyBWtu+ADV0H0shA2phyQszKXfvtkLGBKi1rMO7BmrrDiaZDA2qA5rJYC7ZKe6VlsmAaq2Tz+4aVMeFmQyw3nghg/fyoH6YtxFxGWBJv70Mov08m8sAK9o5kME0glM1DpcBlgE9lMGYtYNq91oSLgOsNuNYBmPOH6iWr0PlMsB+v6cyGBuRqjEMuAyw3Pi5DKZRKj8dcxlgvaASGYxFf6Gav0jMZYANWktlMKZTKRvyuAywsWSFDMZUGhPfL1wGWD1CpQzGulAx1JFyGWBbQ9TIYD6BDNOWywDbHKJOBmP2K1QcVYRcBtioqV4GYybyo2PCFA2s43NJBvajY6Mp2gyqscsymItZEDDTFBessStk4KZ+XGoyMFM/rgJX3XalDLzUj6/A7YxwtQys1I+lwBUkXC8DKfUTKXArnW+RwdgcPvVjKHDVGbfJQEj96IRlgKd+dAVuRevNMqBTP45igrV1hwzY1I9JXQZjCdijowUy4Mq5WyEDKvVjKnDre++XAZT6UVsigz86mq/6aY8MgNRPm2Q0nvpplYymUz8tk8GY0+Cjo20ytEGDKduWyQgarUxslYyms6MtktF83rw1MiBmVFQFboXvT2SAzLUlrRioARXgt2HUakNVkNCX4cJVbpCXAblO36ScHefjdtCSDdJTBdB1gIRlROAb+eokJ54zEBaYWkRljDA2K6A5C+/gHE8V0avcwVuJQq+MCXGNkqvA7fh4lYwArPjwHGKljz3Ms+xmmgK3l91FGcgrXqeEyqU17LXQEy4DrM9bLwN/lfwblSUWFPZPyJZYgP1Qq2WApW9q6XAZYF2cKhkUFt5k7LgMsEL+ChlktlkcchlgPb5SGXAVWxfpIy/yJbOMMyNb5DuCauxMBqEFvhkjxI0BNGr7g2UbA4Clx49l0NoUIMPE2kyE2nYRGdlmImBrLL5lROQ2EskwuAyw7M6XDIpbzGS4CFtTNVt98wOyranAjlATMlDTN7VsxHZ2H0CtcRnGJ1Bbd/AhZEANGXe0T2tLQbfAnCDmeq8g3wLzuSG9YChkkBlD4zIWMqQ/US5HFTLm2GHQYC5kPM96EdhCxvMUIIGfH9xA+5UHxIzlMsj2kCEJCxkkB9TQ7AoZpHvJUMSFDBKbyWHTLWQ8z/RQxIkeQgbc5iqEMQoZcGVdhHELGXD1KnSZsC8Zz3ereLPmMqjNbSGw2Mt4DuLzg+GFDLj6cbJYexlgR5yQZfV9FDpD37IWm1f2LYPSxvAoDA5kwK3aI4p5IEP6Pqh7IAOuTJgmb+xQhuRzJ+MjGZIPXI0jGXLnQUN2LIPk+VVQBCcy4FZnEUQ7kSHzyHXBTmXIOz5ZaWcyCCwFQmLNzmXI+kIJWZkMSWfj7VIZck4mdVm5DBkTwztWJUO+x0bIqmW4NE40A2Pq1shgkVQ2phGrk8FcqOJpAny4rF4Gg1v0i83n2a2fy5Al0TM+v/MSGUyXYCJ6opfceJkMCb4cJV+LShnM/9V1XrFfftcVMvhrZfFL37LTxelL5LIMjhOTW3v6UzaxU3PDdTI4hjoE22ykabZD1ai/2wsyBJYZxLuwtUXVs3AXB6Z1xY1eIyNH8w0z6Ma7bdiKh8k03O7ibmAavnb53m6WcYBrGXpvtB4PvOVrONmQ+M7MNpPwdekNxutRTzesyofkw2WcokWWrc/niRqMx3F/6HmdNJ18TFazh2uazVb8wmna8bxhPx6PAzWZz3Xbiq7/76/hITJq0SLft3TbtnsZicpJRt0v+kfs/zzK/534CP+obvn+Y+63lv+VHGD8RU7AJQAAAABJRU5ErkJggg=="
           alt="image"
@@ -51,7 +48,7 @@
           alt="image"
         />
       </div>
-    </main>
+    </section>
     <footer><p>Copyright © 2017 Your Name</p></footer>
   </body>
 </html>
